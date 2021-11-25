@@ -1,0 +1,131 @@
+body{
+    background-color: beige; 
+}
+
+h1 a {
+    color: #a89e96;
+}
+.page-header {
+    background-color: rgb(113, 214, 113);
+    margin-top: 0;
+    padding: 5px 5px 20px 40px;
+}
+
+.page-header h1, .page-header h1 a, .page-header h1 a:visited, .page-header h1 a:active {
+    color: #ffffff;
+    font-size: 30pt;
+    text-decoration: none;
+}
+
+.content {
+    margin-left: 40px;
+}
+
+h1, h2, h3 {
+    font-family: 'Lobster', cursive;
+}
+
+.date {
+    color: #828282;
+}
+
+.save {
+    float: right;
+}
+
+.post-form textarea, .post-form input {
+    width: 100%;
+}
+
+.top-menu, .top-menu:hover, .top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+}
+
+.post {
+    margin-bottom: 70px;
+}
+
+.post h2 a, .post h2 a:visited {
+    color: #000000;
+}
+.btn {
+    background-color:chocolate;
+    color: rgb(255, 255, 255);
+    text-align: center; 
+}
+.btn-ok {
+    background-color:green;
+    color: rgb(255, 255, 255);
+    text-align: center; 
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.menu-container {
+    color: black;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .menu {
+    width: 520px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+    margin-right: auto;
+  }
+  .animaux {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+  }
+  .equipements {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+  }
+
+.cards_ani {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(248, 145, 167);
+    text-align: center;
+    width: 230;
+    height: auto;
+    margin: 5px;   
+}
+.cards_equip{
+    background-color: rgb(125, 125, 255);
+    text-align: center;
+    width: 220;
+    height: 300;
+    margin: 7px;    
+}
+.card {
+    display: grid;
+    grid-template-rows: max-content 200px 1fr;
+   
+}
+.card img {
+    object-fit: cover;
+    width: 95%;
+    height: 95%;
+    padding-left: 5%;
+}
