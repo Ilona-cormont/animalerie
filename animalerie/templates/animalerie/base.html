@@ -1,0 +1,22 @@
+{% load static %}
+
+<html>
+
+<head>
+    <title>Animalerie</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="{% static 'css/animalerie.css' %}">
+</head>
+
+<body>
+    <div class="page-header">
+        <h1><a href="/">Bienvenue à l'animalerie</a></h1>
+        <a href="{% url 'ajout_animal' %}" class="btn btn-ok" role="button">Ajouter un animal</a>
+    </div>
+            {% block content %}
+            {% endblock %}
+    </div>
+</body>
+
+</html>
